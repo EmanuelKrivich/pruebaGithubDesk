@@ -1,5 +1,28 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+}
+/* no es una buena practica usar !important */
+.bg-primary {
+    background-color: brown !important;
+}
+
+/* .container-fluid{
+    background-color: bisque;
+} */
+
+.lead{
+    font-size: 2rem;
+}
+
+.form-control{
+    font-size: 2rem;
+}
+
+.colorRojo{
+    background-color: red;
+}
+
+.navbar-brand{
+    color: aliceblue;
 }
